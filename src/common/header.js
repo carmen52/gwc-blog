@@ -64,9 +64,11 @@ class Square extends React.Component {
     }
   
     onJobPostingsClick() {
+      window.open("http://carmen52.github.io/gwc-jobpostings","_self");
     }
 
     onBlogClick() {
+      window.open("http://carmen52.github.io/gwc-blog","_self");
     }
   
     onTeamClick() {
